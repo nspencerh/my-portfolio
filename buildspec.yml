@@ -1,0 +1,13 @@
+version: 0.1
+
+phases:
+  build:
+    commands:
+      - echo nothing to do yet, nada que hacer
+artifacts:
+  files:
+    - index.html
+    - favicon.ico
+    - CV_Nicolas Spencer_04-16.pdf
+    - styles/main.css
+    - images/*
