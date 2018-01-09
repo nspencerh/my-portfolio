@@ -3,11 +3,13 @@ version: 0.1
 phases:
   build:
     commands:
-      - echo nothing to do yet, nada que hacer
+      - npm install
+      - npm run webpack
 artifacts:
   files:
     - index.html
     - favicon.ico
-    - CV_Nicolas Spencer_04-16.pdf
+    - Resume_Nicolas_Spencer_07-01-2018.pdf
     - styles/main.css
     - images/*
+    - dist/bundle.js
