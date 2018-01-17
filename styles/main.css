@@ -150,6 +150,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -50%;
 }
 
+.section__image {
+  width: 50%;
+  height: 50%;
+}
+
 /*
   Header
 */
