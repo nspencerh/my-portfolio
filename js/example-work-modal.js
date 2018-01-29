@@ -22,10 +22,8 @@ class ExampleWorkModal extends React.Component {
           <p className="modal__description">
             {example.desc }
           </p>
-          <center>
-            <img src= "images/KioskEMD_1.png"
-              className="section__image"/>
-          </center>
+          <img alt={example.image.desc }
+               src={example.image.src }/>
           <p className="modal__description">
             {example.desc }
           </p>

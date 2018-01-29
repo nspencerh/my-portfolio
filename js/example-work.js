@@ -51,6 +51,8 @@ class ExampleWork extends React.Component {
   }
 }
 
+
+/* Esta es la clase donde se crean las Bubbles */
 class ExampleWorkBubble extends React.Component {
   render() {
     let example = this.props.example;
@@ -73,4 +75,6 @@ class ExampleWorkBubble extends React.Component {
   }
 }
 
+
+/* Para que sea visible por index.html se debe exportar */
 export default ExampleWork;

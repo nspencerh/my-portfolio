@@ -88,6 +88,15 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+.badgesSize {
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  position: relative;
+  width: 25%;
+  height: 50%;
+}
 
 .section--alignCentered {
   text-align: center;
